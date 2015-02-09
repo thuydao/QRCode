@@ -6,12 +6,11 @@
 //  Copyright (c) 2014 BunLV. All rights reserved.
 //
 
-#import "BaseViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
 @protocol TPBQRCodeViewControllerDelegate;
 
-@interface TPBQRCodeViewController : BaseViewController
+@interface TPBQRCodeViewController : UIViewController
 {
 
 }

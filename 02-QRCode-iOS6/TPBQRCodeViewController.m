@@ -82,7 +82,6 @@
 - (void)setViewInfo
 {
     // Need call super
-    [super setViewInfo];
     
     // Begin code here
     if ( [self isCameraAvailable] )
@@ -149,11 +148,6 @@
 #pragma mark + Get
 - (void)getDataByLoadFromServer
 {
-    // Need call super
-    [super getDataByLoadFromServer];
-    
-    // Begin code here
-    
 }
 
 - (BOOL)isCameraAvailable
@@ -170,14 +164,6 @@
 #pragma mark + Remove
 
 #pragma mark + Control Item
-- (void)controlItem
-{
-    // Need call super
-    [super controlItem];
-    
-    // Begin code here
-    
-}
 
 #pragma mark + Scan
 - (void)startScanning

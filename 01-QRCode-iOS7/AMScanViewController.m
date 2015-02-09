@@ -8,7 +8,6 @@
 
 #import "AMScanViewController.h"
 
-#import "Prefix-Category-Block.h"
 
 @interface AMScanViewController ()
 
