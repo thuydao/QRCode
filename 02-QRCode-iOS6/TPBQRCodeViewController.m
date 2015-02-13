@@ -217,6 +217,9 @@
                 NSString *aScannedValue = s.data;
                 
                 [self.delegate qrCodeViewController:self didSuccessfullyScan:aScannedValue];
+                
+#warning For test
+                [self clickBtnClose:nil];
             }
         }
     }
@@ -225,5 +228,9 @@
 #pragma mark - Subclass need overwrite
 
 #pragma mark - Overwrite
+- (IBAction)clickBtnClose:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 @end

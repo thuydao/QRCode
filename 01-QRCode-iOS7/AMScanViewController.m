@@ -268,9 +268,17 @@
             {
                 NSString *scannedValue = [((AVMetadataMachineReadableCodeObject *) current) stringValue];
                 [self.delegate scanViewController:self didSuccessfullyScan:scannedValue];
+                
+#warning For test
+                [self clickBtnClose:nil];
             }
         }
     }
+}
+
+- (IBAction)clickBtnClose:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end
