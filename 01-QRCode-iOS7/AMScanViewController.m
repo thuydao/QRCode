@@ -278,7 +278,9 @@
 
 - (IBAction)clickBtnClose:(id)sender
 {
-    [self.navigationController popViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 }
 
 @end
